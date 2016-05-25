@@ -6,6 +6,10 @@ body {
   margin-bottom: 20px;
   color: #FFFFFF; }
 
+.instructions {
+  color: #FFFFFF;
+  margin: 0 0 0 10px; }
+
 .row {
   margin: 10px; }
   .row textarea {
