@@ -22,6 +22,7 @@ var MarkdownBox = React.createClass({
         var markdown = this.state.markdown;
         return (
             <div className="markdownBox row">
+                <h3 className="instructions">Edit markdown here:</h3>
                 <textarea className="col-md-6" value={markdown} onChange={this.handleChange} />
                 <PreviewBox preview={markdown} />
             </div>
